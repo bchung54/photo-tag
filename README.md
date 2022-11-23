@@ -29,14 +29,14 @@ Game of find the hidden objects with photo tagging
 
 [Project #11: ToDo-dile](https://github.com/bchung54/todo-list) [HTML | CSS | JavaScript + ES6 Modules + Webpack]
 
-[Project #12: Weather App](https://github.com/weather-app) [HTML | CSS | JavaScript + Webpack + async API]
+[Project #12: Weather App](https://github.com/bchung54/weather-app) [HTML | CSS | JavaScript + Webpack + async API]
 
-[Project #13: Battleship](https://github.com/battleship) [HTML | CSS | JavaScript + Webpack + TDD with Jest]
+[Project #13: Battleship](https://github.com/bchung54/battleship) [HTML | CSS | JavaScript + Webpack + TDD with Jest]
 
-[Project #14: CV Application](https://github.com/cv-project) [HTML | CSS | JavaScript + React]
+[Project #14: CV Application](https://github.com/bchung54/cv-project) [HTML | CSS | JavaScript + React]
 
-[Project #15: Memory Card Game](https://github.com/memory-cards) [HTML | CSS | JavaScript + React]
+[Project #15: Memory Card Game](https://github.com/bchung54/memory-cards) [HTML | CSS | JavaScript + React]
 
-[Project #16: Shopping Cart](https://github.com/shopping-cart) [HTML | CSS | JavaScript + React]
+[Project #16: Shopping Cart](https://github.com/bchung54/shopping-cart) [HTML | CSS | JavaScript + React]
 
-[Project #17: Photo Tag](https://github.com/photo-tag) [HTML | CSS | JavaScript + Webpack + Firebase]
+[Project #17: Photo Tag](https://github.com/bchung54/photo-tag) [HTML | CSS | JavaScript + Webpack + Firebase]
