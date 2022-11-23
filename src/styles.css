@@ -1,0 +1,193 @@
+:root {
+    --charcoal: #2e4057;
+    --cerise: #da4167;
+    --indigo: #042446;
+    --champagne: #f6d8ae;
+}
+
+@font-face {
+    font-family: Floral;
+    src: url('./fonts/FloralpersonaluseBold-K7wry.otf');
+}
+
+@font-face {
+    font-family: SnowCursive;
+    src: url('./fonts/SnowPuppetsPersonalUseMedium-1G8vj.ttf');
+}
+
+@font-face {
+    font-family: MontserratSemibold;
+    src: url('./fonts/MontserratSemibold-8M8PB.otf');
+}
+
+body {
+    position: relative;
+    background-color: var(--charcoal);
+}
+
+h1 {
+    padding: 1rem 0;
+    font-family: Floral, Arial, Helvetica, sans-serif;
+    font-size: 4.5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--champagne);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.information {
+    color: var(--cerise);
+    font-family: SnowCursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+.information > * {
+    padding-top: 0.5rem;
+}
+
+.checkfound {
+    color: var(--indigo);
+    text-decoration: line-through;
+}
+
+.item {
+    padding: 0 1rem;
+}
+
+#timer {
+    width: 20vw;
+    margin-top: 0.5rem;
+    background-color: var(--cerise);
+    font-family: MontserratSemibold, Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: relative;
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+    background-color: black;
+}
+
+#target-box {
+    position: absolute;
+    display: none;
+    background-color: slategrey;
+    font-family: MontserratSemibold, sans-serif;
+    font-size: 1.5rem;
+}
+
+.option {
+    padding: 0.5rem;
+}
+
+.option:hover {
+    background-color: var(--champagne);
+    color: var(--cerise);
+    cursor: pointer;
+}
+
+.highlight {
+    position: absolute;
+    display: inline-block;
+    border: 4px solid var(--cerise);
+
+}
+
+/* Modal */
+
+.bg-modal {
+    position: absolute;
+    display: none;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--champagne);
+    color: var(--indigo);
+    font-family: MontserratSemibold, sans-serif;
+    font-size: 32px;
+}
+
+h3 {
+    margin-bottom: 2.5rem;
+    color: var(--charcoal);
+    font-family: Floral, Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.leaderboard {
+    display: flex;
+    justify-content: center;
+}
+
+.leaders {
+    border-bottom: 1px solid var(--cerise);
+}
+
+.player-stat {
+    font-size: 1.75rem;
+}
+
+.current-player {
+    color: var(--cerise);
+}
+
+td {
+    text-align: center;
+    padding: 0.5rem 4.5rem;
+}
+
+.leader-heading {
+    margin-top: 2.5rem;
+    color: var(--cerise);
+    font-family: SnowCursive, sans-serif;
+    font-size: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    font-family: MontserratSemibold;
+    font-size: 1.5rem;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid var(--cerise);
+}
+
+#form-row > * {
+    margin: 0.5rem;
+}
