@@ -39,4 +39,4 @@ Game of find the hidden objects with photo tagging
 
 [Project #16: Shopping Cart](https://github.com/shopping-cart) [HTML | CSS | JavaScript + React]
 
-[Project #17: Photo Tag](https://github.com/photo-tag) [HTML | CSS | JavaScript + Webpack]
+[Project #17: Photo Tag](https://github.com/photo-tag) [HTML | CSS | JavaScript + Webpack + Firebase]
