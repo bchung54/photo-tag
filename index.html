@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo-Tag</title>
+<script defer src="/photo-tag/bundle.js"></script></head>
+<body>
+    <header>
+        <h1>Hidden Objects</h1>
+        <div class="information">
+            <div>Find the following hidden objects:</div>
+            <div class="checklist">
+                <!-- Pull image names -->
+                <!-- span class="item">Spring</span> 230-315, 375-585
+                <span class="item">Clock</span> 1400-1480, 520-610
+                <span class="item">Turtle</span> 1900-2035, 765-865 -->
+            </div>
+        </div>
+        <div id="timer">
+            Time: <span id="time">00:00.0</span>
+        </div>
+    </header>
+    <main>
+        <div class="box">
+            <img src="../src/images/aaa-game-art-studio-hiddenobject.jpg" alt="game-img">
+        </div>
+    </main>
+    <div id="target-box">
+        <!-- Pull image names that have not been found -->
+        <!-- <div class="option">Spring</div>
+        <div class="option">Clock</div>
+        <div class="option">Turtle</div> -->
+    </div>
+    <!-- modal -->
+    <div class="bg-modal">
+        <div class="modal">
+            <div class="close">+</div>
+            <h3>Leaderboard</h3>
+            <table class="leaderboard">
+                <tr class="leader-heading">
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Time</th>
+                </tr> 
+                <tr id="leader1" class="leaders">
+                    <td class="rank">1st</td>
+                    <td class="name">Name</td>
+                    <td class="time">00:00.0</td> 
+                </tr>
+                <tr id="leader2" class="leaders">
+                    <td class="rank">2nd</td>
+                    <td class="name">Name</td>
+                    <td class="time">00:00.0</td> 
+                </tr>
+                <tr id="leader3" class="leaders">
+                    <td class="rank">3rd</td>
+                    <td class="name">Name</td>
+                    <td class="time">00:00.0</td> 
+                </tr>
+            </table>
+            <form>
+                <div class="leader-heading">Your Rank</div>
+                <hr>
+                <div id="form-row">
+                    <span id="player-rank">No. </span>
+                    <input type="text" name="playername" placeholder="Enter Name" required>
+                    <span id="player-time"></span>
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
